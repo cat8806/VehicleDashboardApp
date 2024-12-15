@@ -21,7 +21,6 @@ import ParkingBrakeIcon from './ParkingBrakeIcon';
 import GearRatio from './GearRatioIcon';
 import BatteryTemperatureIcon from './BatteryTemperatureIcon';
 import ViewMenuIcon from './ViewMenuIcon';
-import { BorderBottom, BorderStyle } from '@mui/icons-material';
 import ChargingButton from './ChargingButton';
 
 
@@ -43,7 +42,7 @@ function VehicleDashboard() {
   useEffect(() => {
     const fetchVehicleData = async () => {
       try {
-        const response = await fetch(`${process.env.REACT_APP_API_URL}/api/vehicle/status`);
+        const response = await fetch(`${process.env.REACT_APP_API_URL}/vehicle/status`);
         if (response.ok) {
           const data = await response.json();
           setVehicleData(data);
