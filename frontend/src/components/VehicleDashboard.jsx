@@ -42,7 +42,7 @@ function VehicleDashboard() {
   useEffect(() => {
     const fetchVehicleData = async () => {
       try {
-        const response = await fetch(`${process.env.REACT_APP_API_URL}/vehicle/status`);
+        const response = await fetch(`${import.meta.env.VITE_API_URL}/vehicle/status`);
         if (response.ok) {
           const data = await response.json();
           setVehicleData(data);
@@ -67,7 +67,7 @@ function VehicleDashboard() {
 
     try {
       const updatedData = { ...vehicleData, motorRpm: newValue };
-      const response = await fetch(`${process.env.REACT_APP_API_URL}/vehicle/status`, {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/vehicle/status`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -94,7 +94,7 @@ function VehicleDashboard() {
 
     try {
       const updatedData = { ...vehicleData, isCharging: updatedChargingStatus };
-      const response = await fetch(`${process.env.REACT_APP_API_URL}/vehicle/status`, {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/vehicle/status`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
