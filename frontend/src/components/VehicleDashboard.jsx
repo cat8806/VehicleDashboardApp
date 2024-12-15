@@ -68,7 +68,7 @@ function VehicleDashboard() {
 
     try {
       const updatedData = { ...vehicleData, motorRpm: newValue };
-      const response = await fetch('http://localhost:5016/api/vehicle/status', {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}/vehicle/status`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

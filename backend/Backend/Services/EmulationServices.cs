@@ -99,7 +99,7 @@
                     if (vehicleStatus.BatteryPercentage >= 100)
                     {
                         vehicleStatus.IsCharging = false;
-                    }
+                    }   
 
                     if (vehicleStatus.BatteryTemperature < 40)
                     {
