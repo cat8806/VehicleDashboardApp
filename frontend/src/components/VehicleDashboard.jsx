@@ -43,7 +43,7 @@ function VehicleDashboard() {
   useEffect(() => {
     const fetchVehicleData = async () => {
       try {
-        const response = await fetch('http://localhost:5016/api/vehicle/status');
+        const response = await fetch(`${process.env.REACT_APP_API_URL}/api/vehicle/status`);
         if (response.ok) {
           const data = await response.json();
           setVehicleData(data);
