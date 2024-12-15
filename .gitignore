@@ -8,7 +8,6 @@
 # Frontend (React)
 node_modules/
 build/
-.env
 
 # Backend (.NET Core)
 bin/
