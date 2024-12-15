@@ -1,0 +1,87 @@
+.vehicle-dashboard {
+  background-color: #1e1e1e;
+  /* Dark gray background */
+  color: #ffffff;
+  /* White text color */
+  min-height: 100vh;
+  padding: 20px;
+  background-Color: #1e1e1e;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  border-width: 2px;
+}
+
+.icon-panel {
+  background-color: #2c2c2c;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.top-row-box {
+  border-style: solid;
+  border-color: #222222;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+}
+
+.mid-row-box {
+  border-style: solid;
+  border-color: #222222;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65px;
+  height: 100px;
+  border-width: 2px;
+  flex-direction: column;
+}
+
+.low-row-box {
+
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px;
+  height: auto;
+  border-width: 2px;
+  flex-direction: column;
+}
+
+
+.view-menu-box {
+  border-style: solid;
+  border-color: #444444;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 61px;
+  height: 61px;
+  background-color: #444444;
+  border-width: 1px;
+}
+
+.unit {
+  color: #565656;
+}
+
+.sliderGrid {
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.top-row-container {
+  background-Color: '#000';
+  border-Radius: '1111px';
+}

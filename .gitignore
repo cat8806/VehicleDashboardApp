@@ -1,0 +1,24 @@
+# General
+*.log
+*.tmp
+.vscode/
+.idea/
+.vs/
+
+# Frontend (React)
+node_modules/
+build/
+.env
+
+# Backend (.NET Core)
+bin/
+obj/
+.env
+*.user
+*.suo
+
+# SQLite database files
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
