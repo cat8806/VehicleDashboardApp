@@ -44,6 +44,7 @@ namespace VehicleDashboardBackEnd.Controllers
             existingStatus.PowerConsumption = updatedStatus.PowerConsumption;
             existingStatus.BatteryPercentage = updatedStatus.BatteryPercentage;
 
+
             _context.SaveChanges();
             return Ok(existingStatus);
         }
