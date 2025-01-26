@@ -53,7 +53,7 @@ Follow these steps to set up the application on your local machine:
 ### Clone or Download the Repository
 
 ```bash
-git clone [repository URL]
+git clone https://github.com/cat8806/VehicleDashboardApp
 ```
 
 ---
