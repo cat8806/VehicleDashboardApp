@@ -34,7 +34,8 @@ This project was developed as part of a take-home technical assessment to demons
 
 ## Live Demo
 
-- Explore the live version here: [Dynamic Vehicle Interface Application](https://jolly-tree-0ba90b70f.4.azurestaticapps.net/)
+-~~Explore the live version here: [Dynamic Vehicle Interface Application](https://jolly-tree-0ba90b70f.4.azurestaticapps.net/)~~  
+**Note:** My free Azure credit has expired, so the demo is no longer live.
 
 ---
 
